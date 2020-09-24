@@ -1,4 +1,4 @@
-# 0x0B. Unity - VR Room
+# VR Escape Room - Oculus Rift
 
 For this project, I created a sitting / standing VR experience in the form of an “escape room”-style game.
 
