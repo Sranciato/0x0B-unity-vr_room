@@ -14,7 +14,6 @@ My motivation for creating VR applications/games stems from my love for immersiv
 ![Screenshot](https://i.imgur.com/jcPBInN.png)
 
 ## Tech/framework used
-Ex. -
 
 <b>Built with</b>
 - [Unity](https://unity.com/)
@@ -22,6 +21,9 @@ Ex. -
 
 <b>Built for</b>
 - [Oculus Rift](https://www.oculus.com/?locale=en_US)
+
+## Story
+Creating an experience using new technologies posed as a problem during the different stages of development. With limited resources online it was difficult to find the proper way to handle certain situations. For example, in order to interact with objects it was crucially important for the user to know what they were attempting to grab. This was solved by creating specific shaders that would change based on the raytrace casted out from the users hands.
 
 ## Features
 ### Movement
@@ -31,6 +33,9 @@ Ex. -
 ### Interactions
 - Point at the object you would like to interact with and see an outline for clear indication.
 - Grab objects from a distance or up close.
+### Features to add
+- Allow for objects to keep their position when grabbed instead of snapping to a specific/unlikely position.
+- Sound queues for a better user experience.
 
 ## Code Example
 Below is a code snippet from the camera constraint script
