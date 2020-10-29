@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Class detects if door can open or not
 public class OpenDoor : MonoBehaviour
 {
     public Animator animator;

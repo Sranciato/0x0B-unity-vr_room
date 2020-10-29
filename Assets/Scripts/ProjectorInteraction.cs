@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Class detects if projector can turn on or not
 public class ProjectorInteraction : MonoBehaviour
 {
     public GameObject particles;

@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Defines if chess pieces have or have not been found
 public class FoundPieces : MonoBehaviour
 {
     public GameManager gameManager;
     private bool foundPawn, foundBishop, foundRook, foundKnight;
+
+    // Called when there is a collision between gameobjects
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Pawn" && !foundPawn)
